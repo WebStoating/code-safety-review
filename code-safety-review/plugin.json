@@ -1,0 +1,24 @@
+{
+  "name": "code-safety-review",
+  "version": "1.0.0",
+  "description": "Statically vet an untrusted third-party repository before you open, install or run it: auto-run IDE tasks, npm/PyPI install hooks, hidden payloads, malicious or typosquatted dependencies (npm audit, OSV.dev), git config abuse and prompt injection in agent files. Gives a verdict and a detailed report; nothing from the repository is executed.",
+  "author": {
+    "name": "WebStoating",
+    "url": "https://github.com/WebStoating"
+  },
+  "homepage": "https://github.com/WebStoating/code-safety-review",
+  "repository": "https://github.com/WebStoating/code-safety-review",
+  "license": "Apache-2.0",
+  "keywords": [
+    "security",
+    "malware",
+    "supply-chain",
+    "prompt-injection",
+    "code-review",
+    "npm",
+    "pypi",
+    "javascript",
+    "typescript",
+    "python"
+  ]
+}
