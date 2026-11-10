@@ -1,4 +1,4 @@
-# code-safety-review
+# Code Safety Review
 
 A Claude Code and Codex plugin whose `review` [Agent Skill](https://agentskills.io) statically vets an
 untrusted third-party repository before you open, install, or run it. The result is a verdict
