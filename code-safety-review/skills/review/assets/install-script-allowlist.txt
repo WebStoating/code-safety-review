@@ -1,0 +1,54 @@
+# npm packages whose install/postinstall scripts are well known and expected.
+# Allowlisted packages are not deep-audited for having an install script alone; they are still
+# checked against advisory databases and typosquat rules. Globs: a trailing /* matches a scope.
+# A compromised version of an allowlisted package (e.g. nx 2025) is caught by OSV/npm audit, not here.
+
+# native/binary downloaders for build tools
+esbuild
+@esbuild/*
+@swc/core
+@swc/*
+@parcel/watcher
+unrs-resolver
+@rollup/*
+lightningcss
+@biomejs/*
+turbo
+# node-gyp native addons
+node-gyp
+fsevents
+bcrypt
+sharp
+canvas
+sqlite3
+better-sqlite3
+bufferutil
+utf-8-validate
+cpu-features
+ssh2
+re2
+keytar
+sodium-native
+deasync
+node-sass
+argon2
+# git hook installers
+husky
+lefthook
+simple-git-hooks
+# well-known postinstall banners / runtime downloads
+core-js
+core-js-pure
+es5-ext
+protobufjs
+puppeteer
+electron
+cypress
+playwright
+prisma
+@prisma/client
+@prisma/engines
+@sentry/cli
+nx
+msw
+nodemon
